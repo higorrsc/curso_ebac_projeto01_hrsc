@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #152e66;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+footer {
+  background-color: #152e66;
+  color: #fff;
+  padding: 10px;
+}
