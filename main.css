@@ -11,12 +11,123 @@ header {
   padding: 20px;
 }
 
-header h1 {
+header h1,
+section h1,
+section h2,
+section h3 {
   font-family: "Chakra Petch", sans-serif;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+header nav li a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer {
   background-color: #152e66;
   color: #fff;
   padding: 10px;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+form textarea {
+  resize: none;
+  height: 200px;
+}
+
+form button {
+  background-color: #385ba5;
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #152e66;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #152e66;
+}
+
+#platforms,
+#social-media {
+  color: #fff;
+  background-color: #6d84b6;
+  padding: 20px;
+}
+
+#about-me,
+#contact,
+#streaming {
+  color: #000;
+  background-color: #b2c3e9;
+  padding: 20px;
+}
+
+#about-me .container {
+  display: flex;
+}
+
+#about-me img {
+  padding-right: 10px;
+}
+
+#about-me img {
+  height: 150px;
+}
+
+#social-media h2 {
+  padding-bottom: 10px;
+}
+
+#platforms table td {
+  padding: 10px;
+}
+
+.platform-icon {
+  height: 30px;
+  display: inline;
+  margin-right: 5px;
+}
+
+.social-media-icons img {
+  height: 30px;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1333px;
+  width: 100%;
+  margin: 0 auto;
 }
